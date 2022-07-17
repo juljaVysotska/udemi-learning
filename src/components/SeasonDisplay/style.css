@@ -1,0 +1,39 @@
+.icon-left {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.icon-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.season-display.winter i  {
+    color: rgb(64, 70, 132);
+}
+
+.season-display.summer i  {
+    color: red;
+}
+
+.summer {
+    background-color: rgb(247, 190, 121);
+    height: 100vh;
+    position: relative;
+}
+
+.winter {
+    background-color: aliceblue;
+    height: 100vh;
+    position: relative;
+}
